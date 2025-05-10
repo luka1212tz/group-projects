@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: rgba(136, 11, 161, 0.603);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+
+#main-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+#minus-button{
+    width: 70px;
+    height: 35px;
+    background-color: rgb(255, 0, 0);
+    border: solid 1px black;
+    border-radius: 20px;
+}
+
+#plus-button{
+    width:70px;
+    height: 35px;
+    background-color: rgba(38, 221, 38, 0.808);
+    border: solid 1px black;
+    border-radius: 20px;
+}
+
+#reset-button{
+    width: 70px;
+    height: 35px;
+    background-color: rgb(255, 255, 0);
+    border: solid 1px black;
+    border-radius: 20px;
+
+}
+
+#counter-p{
+    font-size: 35px;
+}
+
+#minus-p{
+    font-weight: 600;
+};
+
+#restart-p{
+    font-weight: 600;
+};
+
+#plus-p{
+    font-weight: 600;
+}
